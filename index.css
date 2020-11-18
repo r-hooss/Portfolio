@@ -13,3 +13,8 @@
 .aaa {
   font-size: 8px;
 }
+
+.profiles img {
+  display: inline;
+  margin: 10px;
+}
