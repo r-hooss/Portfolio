@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+ 
+  <link rel="stylesheet" href="fullpage/fullpage.min.css">
+  <script src="fullpage/fullpage.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+  <div id="full-page">
+    <div class="section s0">
+      <h1>HOOSS</h1>
+      <p>portfolio</p>
+    </div>
+    <div class="section s1">
+      <div class="slide"><h1>Projects</h1></div>
+      <div class="slide"><h2>Today-class</h2><p>프로젝트라 하기 뭐 하지만<br>내가 쓰기 위해서 우리반 전용 시간표를 만들었습니다.<br>온라인 클래스 할 때 굉장히 편했고, 친구들도 많이 애용해주어서 좋았습니다.<br>온라인 클래스가 끝났으므로 더 이상 업데이트는 없음.</p><p>React</p></div>
+    </div>
+    <div class="section s2">
+      <div class="slide"><h1>Skills</h1><p>사용 할 수 있는 언어나 도구를 써 놓았습니다.</br>언어, 도구 사용할 줄 알아도 그 언어나 도구를 공개된 프로젝트를 만들지 않았으면 작성하지 않았습니다.</p></div>
+      <div class="slide"><h2>Front-End</h2><p>Today-class<span class="aaa">(Front-End)</span> Portfolio</p></div>
+      <div class="slide"><h2>Node.js</h2><p>Today-class<span class="aaa">(Back-End React)</span></p></div>
+    </div>
+    <div class="section s3">
+      <div class="slide"><h1>Teams</h2></div>
+      <div class="slide"><h2>Team Wave</h2><img style="border-radius: 30px; max-width: 128px; height: auto;" src="https://cdn.discordapp.com/icons/656103198645420052/d9e9a99358a063cc2c7cab75e4ad4356.webp?size=128"></div>
+      <div class="slide"><h2>Array []</h2><img style="border-radius: 30px; max-width: 128px; height: auto;" src="https://cdn.discordapp.com/icons/750638095824846938/22eb05f74693c48dd888e316a142d3ab.webp?size=512"></div>
+      <div class="slide"><h2>Team Nameless</h2></div>
+      <div class="slide"><h2>ACUESOFT</h2></div>
+    </div>
+    <div class="section s4">
+      <h1>Contact</h1>
+      <h3>hoosshusu@gmail.com<span class="aaa">(gmail)</span></h3>
+      <h3>hooss_OwO#1924<span class="aaa">(discord)</span></h3>
+      <h3>https://github.com/r-hooss<span class="aaa">(github)</span></h3>
+    </div>
+  </div>
+
+  <script>
+    new fullpage("#full-page", {
+      sectionsColor: ["#212121", "#212121", "#212121", "#212121", "#212121"],
+      navigation: true,
+      controlArrows: false,
+      slidesNavigation: true,
+      slidesNavPosition: 'bottom'
+    });
+  </script>
+</body>
+</html>
